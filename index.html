@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Ejercicios, javascript, practico, RollingCode "
+    />
+    <meta name="author" content="Adrian Chanampa" />
+    <meta
+      name="description"
+      content="Quinto Trabajo Practico JS para RollingCode"
+    />
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div>
+        <label for="tiempoInput">Ingrese el tiempo en minutos:</label>
+        <input
+          type="number"
+          id="tiempoInput"
+          min="1"
+          placeholder="Tiempo en minutos"
+        />
+      </div>
+      <div class="temporizador" id="temporizador">00:00</div>
+      <div class="botones">
+        <button class="boton" id="iniciar">Iniciar</button>
+        <button class="boton" id="pausar">Pausar</button>
+        <button class="boton" id="resetear">Resetear</button>
+      </div>
+    </div>
+
+    <script src="./js/temporizador.js"></script>
+  </body>
+</html>
